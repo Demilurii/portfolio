@@ -1,0 +1,16 @@
+:root {}
+
+/* Using this to configure basic page coloring and BG grid */
+body {
+    background: linear-gradient(90deg, #fff6ec 21px, transparent 1%) center, linear-gradient(#fff6ec 21px, transparent 1%) center, #eedcc8;
+    background-size: 23px 23px;
+}
+
+/* Configure the content section to not blend with the background */
+#content {
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(165, 165, 165);
+}

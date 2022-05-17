@@ -1,0 +1,31 @@
+/* Enabling the hand-drawn font for all headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+}
+h3 {
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+/* Specific styles for the intro/heading text */
+#heading {
+    text-align: center;
+}
+
+#heading #title-name {
+    font-size: 6rem;
+    font-weight: bolder;
+    margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+    #heading #title-name {
+        font-size: 4rem;
+    }
+}
